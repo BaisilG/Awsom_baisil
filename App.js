@@ -9,11 +9,12 @@ export default function App() {
 
       {/* <Image source={require("./assets/icon.png")}/> */}
 
+
       <Image 
       blurRadius = {0.1}
       fadeDuration = {4000}
       source={{        
-        
+
         width: 100,
         height : 100,
         uri: 'https://i.picsum.photos/id/237/200/300.jpg?hmac=TmmQSbShHz9CdQm0NkEjx1Dyh_Y984R9LpNrpvH2D_U',}} />
