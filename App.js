@@ -10,12 +10,10 @@ export default function App() {
       <Text>Praise to God</Text>
       {/* <Image source={require("./assets/icon.png")}/> */}
      <Image 
-     
+
       blurRadius = {0.1}
       fadeDuration = {4000}
       source={{        
-
-
 
         width: 100,
         height : 100,
