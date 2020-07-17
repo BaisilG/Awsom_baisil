@@ -6,6 +6,7 @@ export default function App() {
   return (
     <SafeAreaView style={styles.container}>
       <Text>Praise to God</Text>
+      
 
       {/* <Image source={require("./assets/icon.png")}/> */}
 
