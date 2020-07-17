@@ -4,7 +4,7 @@ import { StyleSheet, Text, View , Image, SafeAreaView} from 'react-native';
 
 export default function App() {
   return (
-    
+
 
     <SafeAreaView style={styles.container}>
       <Text>Praise to God</Text>
@@ -14,6 +14,8 @@ export default function App() {
       fadeDuration = {4000}
       source={{        
 
+
+        
         width: 100,
         height : 100,
         uri: 'https://i.picsum.photos/id/237/200/300.jpg?hmac=TmmQSbShHz9CdQm0NkEjx1Dyh_Y984R9LpNrpvH2D_U',}} />
