@@ -8,9 +8,6 @@ export default function App() {
     <SafeAreaView style={styles.container}>
       <Text>Praise to God</Text>
       {/* <Image source={require("./assets/icon.png")}/> */}
-
-
-
      <Image 
       blurRadius = {0.1}
       fadeDuration = {4000}
