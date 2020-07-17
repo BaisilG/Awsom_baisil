@@ -12,7 +12,7 @@ export default function App() {
       <Image source={{
         Text : 'my name is baisil',
         width: 100,
-        height : '100',
+        height : 100,
         uri: 'https://reactnative.dev/img/tiny_logo.png',}} />
       
       <StatusBar style="auto" />
