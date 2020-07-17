@@ -6,7 +6,6 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text>Praise to God</Text>
-
       <StatusBar style="auto" />
     </View>
   );
