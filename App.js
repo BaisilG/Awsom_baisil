@@ -10,7 +10,7 @@ export default function App() {
       {/* <Image source={require("./assets/icon.png")}/> */}
 
       <Image 
-      blurRadius = {1}
+      blurRadius = {0}
       source={{
         
         width: 100,
