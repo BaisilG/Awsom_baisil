@@ -19,12 +19,14 @@ export default function App() {
     </SafeAreaView>
   );
 }
-const containerStyle = {backgroundColor: "orange"}
+const containerStyle = {backgroundColor: "tomato"}
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: 'blanchedalmond',
-    alignItems: 'center',
-    justifyContent: 'center',
+    paddingTop : Platform.OS === "android" ? 30 : 1,
+    // alignItems: 'center',
+    // justifyContent: 'center',
   },
 });
