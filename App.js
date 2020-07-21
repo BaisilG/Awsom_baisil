@@ -6,10 +6,9 @@ export default function App() {
   return (
 
 
-    <SafeAreaView style={styles.container, containerStyle}>
+    <SafeAreaView style={[styles.container, containerStyle]}>
       
       <Button 
-      color = "green"
       title="Click Me" onPress = {() => 
       
       Alert.prompt("Title", "My message is ", (text)=> console.log(text)) 
