@@ -1,6 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View , Image, SafeAreaView, Button} from 'react-native';
+import { StyleSheet, Text, View , Image, Alert, SafeAreaView, Button} from 'react-native';
 
 export default function App() {
   return (
@@ -13,7 +13,12 @@ export default function App() {
       alignItems = "top"
     justifyContent = "middle"
 
-      title="Click Me" onPress = {() => alert (" You have tapped the button")}/>
+      title="Click Me" onPress = {() => 
+      
+      Alert.alert ("Are you Intrested with this app?", "Please put your Answers Yes/No", [
+        {text: "yes",},
+        {text: "No"},
+      ])}/>
 
     </SafeAreaView>
   );
