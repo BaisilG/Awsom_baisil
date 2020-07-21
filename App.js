@@ -8,7 +8,12 @@ export default function App() {
 
     <SafeAreaView style={styles.container}>
       
-      <Button title="Click Me" onPress = {() => console.log ("Button taped")}/>
+      <Button 
+      color = "green"
+      alignItems = "top"
+    justifyContent = "middle"
+
+      title="Click Me" onPress = {() => alert ("Button taped")}/>
 
     </SafeAreaView>
   );
