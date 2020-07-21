@@ -16,8 +16,8 @@ export default function App() {
       title="Click Me" onPress = {() => 
       
       Alert.alert ("Are you Intrested with this app?", "Please put your Answers Yes/No", [
-        {text: "yes",onPress:() => alert("Yes"),},
-        {text: "No" ,onPress: ()=> alert("No")},
+        {text: "yes",onPress:() => Alert(" this is mentioned", "You clicked Yes")},
+        {text: "No" ,onPress: ()=> Alert("yes", " You clicked No")},
       ])}/>
 
     </SafeAreaView>
