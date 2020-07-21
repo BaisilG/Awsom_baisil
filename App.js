@@ -13,7 +13,7 @@ export default function App() {
       alignItems = "top"
     justifyContent = "middle"
 
-      title="Click Me" onPress = {() => alert ("Button taped")}/>
+      title="Click Me" onPress = {() => alert (" You have tapped the button")}/>
 
     </SafeAreaView>
   );
