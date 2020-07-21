@@ -12,7 +12,7 @@ export default function App() {
       color = "green"
       title="Click Me" onPress = {() => 
       
-      Alert.prompt("Title", "My message is ", text=> console.log(text)) 
+      Alert.prompt("Title", "My message is ", (text)=> console.log(text)) 
     
     }  
       />
