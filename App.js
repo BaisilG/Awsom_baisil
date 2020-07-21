@@ -6,10 +6,10 @@ export default function App() {
   return (
 
 
-    <SafeAreaView style={styles.container}>
+    <SafeAreaView style={containerStyle}>
       
       <Button 
-      color = "green"
+      color = "orange"
       title="Click Me" onPress = {() => 
       
       Alert.prompt("Title", "My message is ", (text)=> console.log(text)) 
@@ -21,6 +21,7 @@ export default function App() {
   );
 }
 
+const containerStyle = {backtoudcolor:"orange"};
 const styles = StyleSheet.create({
   container: {
     flex: 1,
