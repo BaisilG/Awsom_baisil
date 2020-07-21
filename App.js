@@ -10,15 +10,12 @@ export default function App() {
       
       <Button 
       color = "green"
-      alignItems = "top"
-    justifyContent = "middle"
-
       title="Click Me" onPress = {() => 
       
-      Alert.alert ("Are you Intrested with this app?", "Please put your Answers Yes/No", [
-        {text: "yes",onPress:() => Alert(" this is mentioned", "You clicked Yes")},
-        {text: "No" ,onPress: ()=> Alert("yes", " You clicked No")},
-      ])}/>
+      Alert.prompt("Title", "My message is ", text=> console.log(text)) 
+    
+    }  
+      />
 
     </SafeAreaView>
   );
